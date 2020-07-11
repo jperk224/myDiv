@@ -1,1 +1,1 @@
-@include('head')
+@extends('layouts.app')

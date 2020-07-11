@@ -11,3 +11,4 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 laravel-README.md
+resources/views/welcome-old.blade/php
