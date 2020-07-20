@@ -36,4 +36,14 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * User-account relationship
+     */
+    public function accounts() 
+    {   
+        return $this->hasMany(Account::class);
+    }
+
+    // TODO: No OnDelete Cascade is presently setup for accounts
 }
